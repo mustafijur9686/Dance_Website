@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Rockz Dance Academy 
+    style
+      include ../static/style.css
+  body
+    section#introSection
+        div Welcome to Rockz Dance Academy !
+        div.small Dance is the hidden language of our soul...
+    section#missionSection
+        h1  Our Mission
+        div.card
+            h3  Make a habit of using your eyes, not looking at the floor.
+              div.card-box
+                div.card-img
+                  img(src="/static/m1.jpeg")
+
+                  div.card-content
+                  p This is heart of dance
+        div.card
+            h3  Improve your transitions to get that “graceful” look.
+             div.card-box
+                div.card-img
+                  img(src="/static/m2.png")
+
+                  div.card-content
+                  p This is brain of dance
+        div.card
+            h3  Get better at showing different emotions through movement.
+              div.card-box
+                div.card-img
+                  img(src="/static/m3.jpeg")
+
+                  div.card-content
+                  p This is body of dance
+        div.card
+            h3  Improve your musicality.
+              div.card-box
+                div.card-img
+                  img(src="/static/m5.png")
+
+                  div.card-content
+                  p This is preace of dance
+    section#sponsorsSection 
+        h1  Our Sponsors  
+        div#sponsors
+          img(src="/static/spon1.jpg",alt="Sponsors Image", class="spImage")
+          img(src="/static/spon2.jpg",alt="Sponsors Image", class="spImage")
+          img(src="/static/spon3.jpg",alt="Sponsors Image", class="spImage")
+          img(src="/static/spon4.jpg",alt="Sponsors Image", class="spImage")
+          img(src="/static/spon5.jpg",alt="Sponsors Image", class="spImage")
+    footer#footer 
+      |Copyright 2023 © RockzDanceAcademy | All Rights Reserved.       
+    script
+      include ../static/index.js
